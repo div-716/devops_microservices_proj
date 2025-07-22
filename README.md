@@ -38,7 +38,9 @@ GET /user/<name>
 
 ## Redis Cache
 Used by data-service to reduce repeated DB queries
+
 Caches user info on first GET
+
 Docker image: redis:alpine
 
 >>>> To Run the Project:
