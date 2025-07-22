@@ -2,19 +2,6 @@
 
 A multi-container microservices architecture built with Docker Compose. It consists of two Flask-based services (`user-service` and `data-service`), a PostgreSQL database, and a Redis cache. 
 
-## 📦 Folder Structure
-|── docker-compose.yml
-├── init.sql
-├── data-service/
-│ > app.py
-│ > Dockerfile
-│ > requirements.txt
-├── user-service/
-│ >app.py
-│ > Dockerfile
-│ > requirements.txt
-
-
 ## 🧱 Microservices Overview
 
 ### 🔹 user-service
